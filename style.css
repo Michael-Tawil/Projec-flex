@@ -1,3 +1,39 @@
 body{
+    background-color:#1f2937;
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color:#f9faf8 ;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+ul li{
+    list-style: none;
+}
+.Hero{
+    display: flex;
+}
+
+.maincontent h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.maincontent p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
     background-color: deepskyblue;
+    color: #f9faf8;
+    font-size: 24px;
 }
